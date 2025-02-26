@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Food Paradise</title>
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            background-color: rgb(30, 240, 191);
+            padding: 20px;
+            margin: 0;
+            color: white;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #17a2b8;
+            padding: 10px;
+        }
+        
+        nav a {
+            color: white;
+            font-size: 20px;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .contact-container p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #17a2b8;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #138496;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #343a40;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    
+    <nav>
+        <a href="food.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <div class="contact-container">
+        <p>If you have any questions, feel free to reach out to us. We'd love to hear from you!</p>
+        
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    <footer>
+        &copy; 2025 Food Paradise. All rights reserved.
+    </footer>
+</body>
+</html>
